@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" 
+      type="image/ico" 
+      href="homer.ico" />
+    <title>SERRAYE GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+</head>
+<script>
+    function playAudio(url) {
+  new Audio(url).play();
+  console.log("prout");
+}
+</script>
+<body>
+    <h1>SERRAYE GENERATOR</h1>
+    <div class="app">
+        <div class="case">
+            <div class="play" onclick="playAudio('parfait.mp3')">
+                <span class="iconify" data-icon="akar-icons:play"></span>
+            </div>
+            <p>Parfait !</p>
+        </div>
+        <div class="case">
+            <div class="play" onclick="playAudio('cvrai.mp3')">
+                <span class="iconify" data-icon="akar-icons:play"></span>
+            </div>
+            <p>C'est vrai ?</p>
+        </div>
+        <div class="case">
+            <div class="play" onclick="playAudio('mysound.mp3')">
+                <span class="iconify" data-icon="akar-icons:play"></span>
+            </div>
+            <p>Non !?</p>
+        </div>
+        <div class="case">
+            <div class="play" onclick="playAudio('mysound.mp3')">
+                <span class="iconify" data-icon="akar-icons:play"></span>
+            </div>
+            <p>Teddy !</p>
+        </div>
+        <div class="case">
+            <div class="play" onclick="playAudio('do.mp3')">
+                <span class="iconify" data-icon="akar-icons:play"></span>
+            </div>
+            <p>Do'h</p>
+        </div>
+        <div class="case">
+            <div class="play" onclick="playAudio('mysound.mp3')">
+                <span class="iconify" data-icon="akar-icons:play"></span>
+            </div>
+            <p>Teddy !</p>
+        </div>
+        <div class="case">
+            <div class="play" onclick="playAudio('mysound.mp3')">
+                <span class="iconify" data-icon="akar-icons:play"></span>
+            </div>
+            <p>Teddy !</p>
+        </div>
+    </div>
+    <img id="Homer" src="pngegg.png"/>
+</body>
+</html>

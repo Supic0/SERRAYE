@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #03243C;
+    overflow: hidden;
+}
+
+h1 {
+    /* SERRAYE GENERATEUR */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 42px;
+margin-top: 35px;
+color: #FFFFFF;
+position: relative;
+left: 50%;
+transform: translate(-50%);
+text-align:center;
+
+
+}
+.app {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    top:33%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items:flex-start ;
+    background-color: transparent ;
+}
+
+.case {
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iconify {
+    color: #FFF500;
+    /* Rectangle 1 */
+    width: 40px;
+    height: 40px;
+}
+
+.play {
+    width: 71px;
+height: 71px;
+left: 70px;
+top: 169px;
+
+border: 2px solid #FFF500;
+box-sizing: border-box;
+border-radius: 21px;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba(236, 232, 3, 0.061);
+}
+
+p{
+    /* C’est vrai ! */
+
+width: 89px;
+height: 25px;
+left: 61px;
+top: 257px;
+margin: 0;
+margin-bottom: 8px;
+margin-top: 8px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #FFFFFF;
+text-align: center;
+
+}
+
+#Homer{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 50%;
+    max-width: 200px;
+}
